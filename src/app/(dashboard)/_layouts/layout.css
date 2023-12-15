@@ -1,0 +1,22 @@
+.logo {
+  background: rgba(255, 255, 255, 0.3);
+  background-color: #023020;
+  height: 64px;
+}
+.sm-logo {
+  display: none;
+  color: #99dfb2;
+}
+.lg-logo {
+  color: #99dfb2;
+}
+.ant-layout .ant-layout-sider-trigger {
+  background-color: #023020;
+}
+
+.ant-layout-sider-collapsed .sm-logo {
+  display: block;
+}
+.ant-layout-sider-collapsed .lg-logo {
+  display: none;
+}
